@@ -10,6 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../CMakeLists.txt"
   "../SE_direct/mex/CMakeLists.txt"
   "../SE_direct/mex/Stokeslet/CMakeLists.txt"
+  "../SE_direct/mex/Stresslet/CMakeLists.txt"
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
@@ -36,7 +37,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.22/Modules/FindMatlab.cmake"
   "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
-  "/usr/share/cmake-3.22/Modules/FindPkgConfig.cmake"
   "/usr/share/cmake-3.22/Modules/Internal/CheckCompilerFlag.cmake"
   "/usr/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake"
@@ -57,9 +57,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "SE_direct/mex/CMakeFiles/CMakeDirectoryInformation.cmake"
   "SE_direct/mex/Stokeslet/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "SE_direct/mex/Stresslet/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "SE_direct/mex/Stokeslet/CMakeFiles/SE0P_Stokeslet_direct_full_ext_mex.dir/DependInfo.cmake"
+  "SE_direct/mex/Stresslet/CMakeFiles/SE0P_Stresslet_direct_full_ext_mex.dir/DependInfo.cmake"
   )

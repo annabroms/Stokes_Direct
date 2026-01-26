@@ -129,6 +129,19 @@ SE0P_Stokeslet_direct_full_ext_mex/fast:
 	$(MAKE) $(MAKESILENT) -f SE_direct/mex/Stokeslet/CMakeFiles/SE0P_Stokeslet_direct_full_ext_mex.dir/build.make SE_direct/mex/Stokeslet/CMakeFiles/SE0P_Stokeslet_direct_full_ext_mex.dir/build
 .PHONY : SE0P_Stokeslet_direct_full_ext_mex/fast
 
+#=============================================================================
+# Target rules for targets named SE0P_Stresslet_direct_full_ext_mex
+
+# Build rule for target.
+SE0P_Stresslet_direct_full_ext_mex: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SE0P_Stresslet_direct_full_ext_mex
+.PHONY : SE0P_Stresslet_direct_full_ext_mex
+
+# fast build rule for target.
+SE0P_Stresslet_direct_full_ext_mex/fast:
+	$(MAKE) $(MAKESILENT) -f SE_direct/mex/Stresslet/CMakeFiles/SE0P_Stresslet_direct_full_ext_mex.dir/build.make SE_direct/mex/Stresslet/CMakeFiles/SE0P_Stresslet_direct_full_ext_mex.dir/build
+.PHONY : SE0P_Stresslet_direct_full_ext_mex/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -138,6 +151,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SE0P_Stokeslet_direct_full_ext_mex"
+	@echo "... SE0P_Stresslet_direct_full_ext_mex"
 .PHONY : help
 
 

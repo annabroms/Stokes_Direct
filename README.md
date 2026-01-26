@@ -1,6 +1,6 @@
 ## Overview
 
-This repository provides **direct evaluation of the free-space Stokeslet**, extracted from [SE_unified](https://github.com/joarbagge/SE_unified_v2) by Joar Bagge.  
+This repository provides direct evaluation of the free-space Stokeslet and stresslet, extracted from [SE_unified](https://github.com/joarbagge/SE_unified_v2) by Joar Bagge.  
 It is a stripped-down version tailored specifically for the **free-space Stokes kernel**, without periodicity or other features.
 
 ## Build Instructions
