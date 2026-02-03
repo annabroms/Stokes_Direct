@@ -80,16 +80,19 @@ clean: SE_direct/mex/clean
 # Recursive "all" directory target.
 SE_direct/mex/all: SE_direct/mex/Stokeslet/all
 SE_direct/mex/all: SE_direct/mex/Stresslet/all
+SE_direct/mex/all: SE_direct/mex/Stokestraction/all
 .PHONY : SE_direct/mex/all
 
 # Recursive "preinstall" directory target.
 SE_direct/mex/preinstall: SE_direct/mex/Stokeslet/preinstall
 SE_direct/mex/preinstall: SE_direct/mex/Stresslet/preinstall
+SE_direct/mex/preinstall: SE_direct/mex/Stokestraction/preinstall
 .PHONY : SE_direct/mex/preinstall
 
 # Recursive "clean" directory target.
 SE_direct/mex/clean: SE_direct/mex/Stokeslet/clean
 SE_direct/mex/clean: SE_direct/mex/Stresslet/clean
+SE_direct/mex/clean: SE_direct/mex/Stokestraction/clean
 .PHONY : SE_direct/mex/clean
 
 #=============================================================================
@@ -106,6 +109,21 @@ SE_direct/mex/Stokeslet/preinstall:
 # Recursive "clean" directory target.
 SE_direct/mex/Stokeslet/clean: SE_direct/mex/Stokeslet/CMakeFiles/SE0P_Stokeslet_direct_full_ext_mex.dir/clean
 .PHONY : SE_direct/mex/Stokeslet/clean
+
+#=============================================================================
+# Directory level rules for directory SE_direct/mex/Stokestraction
+
+# Recursive "all" directory target.
+SE_direct/mex/Stokestraction/all: SE_direct/mex/Stokestraction/CMakeFiles/SE0P_Stokestraction_direct_full_ext_mex.dir/all
+.PHONY : SE_direct/mex/Stokestraction/all
+
+# Recursive "preinstall" directory target.
+SE_direct/mex/Stokestraction/preinstall:
+.PHONY : SE_direct/mex/Stokestraction/preinstall
+
+# Recursive "clean" directory target.
+SE_direct/mex/Stokestraction/clean: SE_direct/mex/Stokestraction/CMakeFiles/SE0P_Stokestraction_direct_full_ext_mex.dir/clean
+.PHONY : SE_direct/mex/Stokestraction/clean
 
 #=============================================================================
 # Directory level rules for directory SE_direct/mex/Stresslet
@@ -155,7 +173,7 @@ SE_direct/mex/Stokeslet/CMakeFiles/SE0P_Stokeslet_direct_full_ext_mex.dir/clean:
 SE_direct/mex/Stresslet/CMakeFiles/SE0P_Stresslet_direct_full_ext_mex.dir/all:
 	$(MAKE) $(MAKESILENT) -f SE_direct/mex/Stresslet/CMakeFiles/SE0P_Stresslet_direct_full_ext_mex.dir/build.make SE_direct/mex/Stresslet/CMakeFiles/SE0P_Stresslet_direct_full_ext_mex.dir/depend
 	$(MAKE) $(MAKESILENT) -f SE_direct/mex/Stresslet/CMakeFiles/SE0P_Stresslet_direct_full_ext_mex.dir/build.make SE_direct/mex/Stresslet/CMakeFiles/SE0P_Stresslet_direct_full_ext_mex.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anna/Dokument/Stokes_Direct/build/CMakeFiles --progress-num=5,6,7,8 "Built target SE0P_Stresslet_direct_full_ext_mex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anna/Dokument/Stokes_Direct/build/CMakeFiles --progress-num=9,10,11,12 "Built target SE0P_Stresslet_direct_full_ext_mex"
 .PHONY : SE_direct/mex/Stresslet/CMakeFiles/SE0P_Stresslet_direct_full_ext_mex.dir/all
 
 # Build rule for subdir invocation for target.
@@ -173,6 +191,32 @@ SE0P_Stresslet_direct_full_ext_mex: SE_direct/mex/Stresslet/CMakeFiles/SE0P_Stre
 SE_direct/mex/Stresslet/CMakeFiles/SE0P_Stresslet_direct_full_ext_mex.dir/clean:
 	$(MAKE) $(MAKESILENT) -f SE_direct/mex/Stresslet/CMakeFiles/SE0P_Stresslet_direct_full_ext_mex.dir/build.make SE_direct/mex/Stresslet/CMakeFiles/SE0P_Stresslet_direct_full_ext_mex.dir/clean
 .PHONY : SE_direct/mex/Stresslet/CMakeFiles/SE0P_Stresslet_direct_full_ext_mex.dir/clean
+
+#=============================================================================
+# Target rules for target SE_direct/mex/Stokestraction/CMakeFiles/SE0P_Stokestraction_direct_full_ext_mex.dir
+
+# All Build rule for target.
+SE_direct/mex/Stokestraction/CMakeFiles/SE0P_Stokestraction_direct_full_ext_mex.dir/all:
+	$(MAKE) $(MAKESILENT) -f SE_direct/mex/Stokestraction/CMakeFiles/SE0P_Stokestraction_direct_full_ext_mex.dir/build.make SE_direct/mex/Stokestraction/CMakeFiles/SE0P_Stokestraction_direct_full_ext_mex.dir/depend
+	$(MAKE) $(MAKESILENT) -f SE_direct/mex/Stokestraction/CMakeFiles/SE0P_Stokestraction_direct_full_ext_mex.dir/build.make SE_direct/mex/Stokestraction/CMakeFiles/SE0P_Stokestraction_direct_full_ext_mex.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anna/Dokument/Stokes_Direct/build/CMakeFiles --progress-num=5,6,7,8 "Built target SE0P_Stokestraction_direct_full_ext_mex"
+.PHONY : SE_direct/mex/Stokestraction/CMakeFiles/SE0P_Stokestraction_direct_full_ext_mex.dir/all
+
+# Build rule for subdir invocation for target.
+SE_direct/mex/Stokestraction/CMakeFiles/SE0P_Stokestraction_direct_full_ext_mex.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anna/Dokument/Stokes_Direct/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SE_direct/mex/Stokestraction/CMakeFiles/SE0P_Stokestraction_direct_full_ext_mex.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anna/Dokument/Stokes_Direct/build/CMakeFiles 0
+.PHONY : SE_direct/mex/Stokestraction/CMakeFiles/SE0P_Stokestraction_direct_full_ext_mex.dir/rule
+
+# Convenience name for target.
+SE0P_Stokestraction_direct_full_ext_mex: SE_direct/mex/Stokestraction/CMakeFiles/SE0P_Stokestraction_direct_full_ext_mex.dir/rule
+.PHONY : SE0P_Stokestraction_direct_full_ext_mex
+
+# clean rule for target.
+SE_direct/mex/Stokestraction/CMakeFiles/SE0P_Stokestraction_direct_full_ext_mex.dir/clean:
+	$(MAKE) $(MAKESILENT) -f SE_direct/mex/Stokestraction/CMakeFiles/SE0P_Stokestraction_direct_full_ext_mex.dir/build.make SE_direct/mex/Stokestraction/CMakeFiles/SE0P_Stokestraction_direct_full_ext_mex.dir/clean
+.PHONY : SE_direct/mex/Stokestraction/CMakeFiles/SE0P_Stokestraction_direct_full_ext_mex.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

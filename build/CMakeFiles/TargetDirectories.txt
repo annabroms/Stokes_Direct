@@ -8,3 +8,6 @@
 /home/anna/Dokument/Stokes_Direct/build/SE_direct/mex/Stresslet/CMakeFiles/SE0P_Stresslet_direct_full_ext_mex.dir
 /home/anna/Dokument/Stokes_Direct/build/SE_direct/mex/Stresslet/CMakeFiles/edit_cache.dir
 /home/anna/Dokument/Stokes_Direct/build/SE_direct/mex/Stresslet/CMakeFiles/rebuild_cache.dir
+/home/anna/Dokument/Stokes_Direct/build/SE_direct/mex/Stokestraction/CMakeFiles/SE0P_Stokestraction_direct_full_ext_mex.dir
+/home/anna/Dokument/Stokes_Direct/build/SE_direct/mex/Stokestraction/CMakeFiles/edit_cache.dir
+/home/anna/Dokument/Stokes_Direct/build/SE_direct/mex/Stokestraction/CMakeFiles/rebuild_cache.dir
